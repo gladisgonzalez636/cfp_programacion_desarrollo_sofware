@@ -1,4 +1,4 @@
-## [ejercicios del 1-10](.1/1-10)
+## [ejercicios del 1-10](./1-10/)
 
 ● Ejecricios Leer y Mostar datros del usuario
 1. Calculadora Simple: Solicitar dos números al usuario, sumarlos, restarlos,
