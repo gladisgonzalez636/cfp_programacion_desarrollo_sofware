@@ -1,5 +1,5 @@
-<h2>Ejercicio 1<h2> 
-<h3>Calculadora simple<h3>
+<h2>Ejercicio 1</h2> 
+<h3>Calculadora simple</h3>
 <pre>
     <code>
         Algoritmo sin_titulo
@@ -26,8 +26,8 @@
 </pre>
 <br>
 
-<h2>Ejercicio 2<h2>
-<h3>Área y Perímetro de un rectangulo<h3>
+<h2>Ejercicio 2</h2>
+<h3>Área y Perímetro de un rectangulo</h3>
 <pre>
     <code>
         Algoritmo sin_titulo
@@ -37,14 +37,14 @@
 	        Definir altura Como Real
 	        Escribir 'Escribe la altura:'
 	        leer altura
-	    Escribir 'Tu área es de ',base*altura
+	        Escribir 'Tu área es de ',base*altura
         FinAlgoritmo
     </code>
-<pre>
+</pre>
 <br>
 
-<h2>Ejercicio 3<h2>
-<h3>Promedio de tres números<h3> 
+<h2>Ejercicio 3</h2>
+<h3>Promedio de tres números</h3> 
 <pre>
     <code>
         Algoritmo sin_titulo
@@ -61,8 +61,8 @@
 </pre>
 <br>
 
-<h2>Ejercicio 4<h2>
-<h3>Conversión de temperatura<h3> 
+<h2>Ejercicio 4</h2>
+<h3>Conversión de temperatura</h3> 
 <pre>
     <code>
         Algoritmo sin_titulo
@@ -72,11 +72,11 @@
             Escribir 'Conversión a Fahrenheit :',grados*(9/5)+32
         FinAlgoritmo
     </code>
-<pre>
+</pre>
 <br>
 
-<h2>Ejercicio 5<h2>
-<h3>Edad en dias<h3> 
+<h2>Ejercicio 5</h2>
+<h3>Edad en dias</h3> 
 <pre>
     <code>
         Algoritmo sin_titulo
@@ -86,11 +86,11 @@
             Escribir 'Edad en días: ',edad*365
         FinAlgoritmo
     </code>
-<pre>
+</pre>
 <br>
 
-<h2>Ejercicio 6<h2>
-<h3>Costo de llamada telefónica<h3> 
+<h2>Ejercicio 6</h2>
+<h3>Costo de llamada telefónica</h3> 
 <pre>
     <code>
         Algoritmo sin_titulo
@@ -103,8 +103,8 @@
 </pre>
 <br>
 
-<h2>Ejercicio 7<h2>
-<h3>Cálculo de descuento<h3> 
+<h2>Ejercicio 7</h2>
+<h3>Cálculo de descuento</h3> 
 <pre>
     <code>
         Algoritmo sin_titulo
@@ -117,8 +117,8 @@
 </pre>
 <br>
 
-<h2>Ejercicio 8<h2>
-<h3>Dias a segundos<h3> 
+<h2>Ejercicio 8</h2>
+<h3>Dias a segundos</h3> 
 <pre>
     <code>
         Algoritmo sin_titulo
@@ -135,8 +135,8 @@
 </pre>
 <br>
 
-<h2>Ejercicio 9<h2>
-<h3>Circunferencia y Área de un círculo<h3> 
+<h2>Ejercicio 9</h2>
+<h3>Circunferencia y Área de un círculo</h3> 
 <pre>
     <code>
         Algoritmo sin_titulo
@@ -149,8 +149,8 @@
 </pre>
 <br>
 
-<h2>Ejercicio 10<h2>
-<h3>Circunferencia y Área de un círculo<h3> 
+<h2>Ejercicio 10</h2>
+<h3>Circunferencia y Área de un círculo</h3> 
 <pre>
     <code>
         Algoritmo sin_titulo
