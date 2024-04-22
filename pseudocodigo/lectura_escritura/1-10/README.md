@@ -93,7 +93,7 @@
 <h3>Costo de llamada telefónica</h3> 
 <pre>
     <code>
-        Algoritmo sin_titulo
+        Algoritmo llamda_telefonica
             Definir minutos Como Real
             Escribir 'Minutos habaldos:'
             leer minutos
@@ -107,7 +107,7 @@
 <h3>Cálculo de descuento</h3> 
 <pre>
     <code>
-        Algoritmo sin_titulo
+        Algoritmo descuento
             Definir descuento Como Real
             Escribir 'Precio: '
             leer descuento
@@ -121,7 +121,7 @@
 <h3>Dias a segundos</h3> 
 <pre>
     <code>
-        Algoritmo sin_titulo
+        Algoritmo dias_a_segundos
             Definir descuento Como Real
             Escribir 'Precio'
             Leer descuento
@@ -139,7 +139,7 @@
 <h3>Circunferencia y Área de un círculo</h3> 
 <pre>
     <code>
-        Algoritmo sin_titulo
+        Algoritmo circunferencia_y_area_de_uncirculo
             Definir radio Como Real
             Escribir 'Radio: '
             Leer radio
