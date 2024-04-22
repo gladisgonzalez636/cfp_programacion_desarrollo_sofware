@@ -7,4 +7,5 @@
 ## [Vectores](./pseudocodigo/Vectores)
 ## [Matrizes](./pseudocodigo/Matrizes)
 ## [Funciones](./pseudocodigo/Funciones/)
+## [Recursiva](./pseudocodigo/Recursiva/)
 
