@@ -6,4 +6,5 @@
 ## [BuclesPara](./pseudocodigo/BuclesPara)
 ## [Vectores](./pseudocodigo/Vectores)
 ## [Matrizes](./pseudocodigo/Matrizes)
+## [Funciones](./pseudocodigo/Funciones/)
 
