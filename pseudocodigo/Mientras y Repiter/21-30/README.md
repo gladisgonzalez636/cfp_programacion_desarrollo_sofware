@@ -111,7 +111,6 @@
                 Leer num
                 si num % 2 = 0 Entonces
                     num2= num2 + num
-                
                 FinSi
                 Escribir 'desea continuar si/no'
                 Leer respuesta
