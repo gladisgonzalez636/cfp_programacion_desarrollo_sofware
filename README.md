@@ -5,4 +5,5 @@
 ## [MientrasyRepetir](./pseudocodigo/Mientras y Repetir)
 ## [BuclesPara](./pseudocodigo/BuclesPara)
 ## [Vectores](./pseudocodigo/Vectores)
+## [Matrizes](./pseudocodigo/Matrizes)
 
