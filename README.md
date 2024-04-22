@@ -2,6 +2,6 @@
 
 ## [Lectura y Escritura](./pseudocodigo/lectura_escritura)
 ## [condiciones](./pseudocodigo/condiciones)
-## [condiciones](./pseudocodigo/Mientras y Repetir)
-
+## [MientrasyRepetir](./pseudocodigo/Mientras y Repetir)
+## [BuclesPara](./pseudocodigo/BuclesPara)
 
