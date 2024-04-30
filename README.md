@@ -8,4 +8,7 @@
 ## [Matrizes](./pseudocodigo/Matrizes)
 ## [Funciones](./pseudocodigo/Funciones/)
 ## [Recursiva](./pseudocodigo/Recursiva/)
+## [Ejercicios1_5](./html_css/1-5)
 
+# Ejercicios HTML Y CSS
+## [Ejecicio1](./html_css/Ejercicio_1)
