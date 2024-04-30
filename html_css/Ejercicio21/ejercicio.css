@@ -8,8 +8,12 @@ body{
     width: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #FFF;
+    background-color: black;
 }
 
+h2{
+    margin-top: 2%;
+}
 .padre{
     display: flex;
     justify-content: center;
@@ -59,6 +63,7 @@ select{
 .madre { 
     margin-top: -4%;
     height: 440px;
+    margin: 3px black;
     background: rgb(245,232,41);
     background: linear-gradient(90deg, rgba(245,232,41,1) 3%, rgba(242,94,19,1) 12%, rgba(172,38,48,0.9416141456582633) 100%);
 }
@@ -71,14 +76,15 @@ select{
 }
 
 main img{
-    height: 590px;
+    height: 500px; 
     width: 800px;
-    margin-top: -15%;
+    margin-top: -5%;
+    padding: 0%;
 }
 
 .botones{
     margin-left: 49%;
-    margin-top: -28%;
+    margin-top: -25%;
     width: 500px;
 }
 
@@ -91,7 +97,6 @@ main img{
 .boton2 {
     width: 200px;
     border-color: white;
-
     margin-left: 2%;
     background: linear-gradient(90deg, rgba(242,94,19,1) 12%, rgba(172,38,48,0.9416141456582633) 100%);
 }
@@ -99,13 +104,18 @@ main img{
 .cards{
     width: 100%;
     display: grid;
+    height: 100px;
     grid-template-columns: 25% 25% 40%;
     gap: 5%;
+    background-color: black;
+    
 }
 
 .card{
     width: 100%;
-    background-color: #000;
+    background-color: gray;
+    padding: 0%;
+    margin: 9%;
 }
 
 .card img{
@@ -120,43 +130,23 @@ main img{
     font-size: large;
 }
 
+.primero{
+    background-color: black;
+}
+
+.texto_final{
+    background-color: black;
+}
 .title h5{
     padding: 1rem;
 }
 
-/* .contenido {
-    background-color: yellowgreen;
-    display:flex ;
-    flex-direction: column;
-    text-align: start;
+.angu{
+    display: flex;
+    margin-left: 85%;
+    margin-top: -5%;
+}
+
+@media screen and(max-width: 767px){
     
 }
-.js {
-    height: 60px;
-    width: 60px;
-    margin-left: 50%;
-}
-
-.java {
-    background-color: brown;
-}
-
-.angular {
-    background-color: aqua;
-}
-
-.angu {
-    height: 70px;
-    width: 70px;
-    margin-left: 50%;
-}
-
-.primero {
-    color: blueviolet;
-    margin-right: 25%;
-}
-
-.texto_final {
-    font-size: 40px;
-    margin-right: 21%;
-}*/
