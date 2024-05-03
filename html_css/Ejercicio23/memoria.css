@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor {
+    grid-template-columns: repeat(2,1fr);
+    background-color: aqua;
+    display: grid;
+    height: 205px;
+    width: 255px;
+    align-items: center;
+}
+
+img{
+   height: 100px;
+   backface-visibility: hidden;
+}
