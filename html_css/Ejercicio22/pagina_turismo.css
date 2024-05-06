@@ -82,3 +82,18 @@ input {
     height: 15px;
     width: 20px;
 }
+.vuelos_reserva {
+    background-color: antiquewhite;
+    width: 1000px;
+    margin-left: 11.5%;
+}
+
+.span {
+    display: flex;
+    justify-content: space-around;
+    margin-left: -6%;
+}
+
+.pasajeros {
+    margin-right: 5%;
+}
