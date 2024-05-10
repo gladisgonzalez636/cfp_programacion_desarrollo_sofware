@@ -1,6 +1,10 @@
 body {
     margin: 0;
     padding: 0%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
 }
 
 .contenedor {
@@ -8,20 +12,22 @@ body {
     background-color: aqua;
     display: grid; */
     /* align-items: end; */
-    height: 250px;
-    width: 250px;
-    
+    background-color: aqua;
+    height: 300px;
+    width: 300px;
+    display: grid;
+    grid-template-columns: repeat(2,20fr);
+    margin: 0%;
+    padding: 0%;
+    gap: 2%;
+    justify-content: center;
+    align-items: center;
 }
 
-img{
-   height: 100%;
-   width: 100%;
-
-}
 
 .madre{
-    width: 100%;
-    height: 100%;
+    height: 100px;
+    width: 100px;
     position: relative;
     transition: all 1s;
     transform-style: preserve-3d;
@@ -31,6 +37,12 @@ img{
     transform: rotateY(180deg);
 }
 
+img{
+    width: 100%;
+    height: 100%;
+
+}
+
 .imgen, .imgen2{
     width: 100%;
     height: 100%;
@@ -38,9 +50,12 @@ img{
     backface-visibility: hidden;
 }
 
-
 .imgen2{
     transform: rotateY(180deg);
 }
+
+
+
+
 
 

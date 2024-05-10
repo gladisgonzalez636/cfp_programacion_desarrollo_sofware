@@ -97,3 +97,26 @@ input {
 .pasajeros {
     margin-right: 5%;
 }
+
+.destino {
+    background-color: aquamarine;
+    display: flex;
+
+}
+
+.dos_palabras {
+    width: 150px;
+}
+
+.fechas {
+    width: 80px;
+}
+
+.personas {
+    width: 100px;
+}
+
+button{
+    width: 80px;
+    border-radius: 0% 0% 0% 0%;
+}
