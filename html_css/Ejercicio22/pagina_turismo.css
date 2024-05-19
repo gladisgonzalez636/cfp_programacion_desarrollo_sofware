@@ -29,7 +29,7 @@
 }
 
 .despegar img {
-    height: 55px;
+    height: 65px;
     width: 150px;
 }
 
@@ -72,7 +72,7 @@ li a {
     width: 800px;
     display: flex;
     justify-content: space-around;
-}
+}   
 
 .barra2 a {
     color: gray;
@@ -88,20 +88,71 @@ input {
     margin-left: 11.5%;
 }
 
-.span {
+.span2 {
+    width: 970px;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: -7%;
+}
+
+.origin{
+    margin-left: -0.2%;
+}
+
+.destino2 {
+   margin-left: 0.5%;
+}
+
+.viajes2 {
+    width: 970px;
     display: flex;
     justify-content: space-between;
-    width: 900px;
-    margin: 0% ;
+}
+
+.una_palabra {
+    width: 210px;
+    height: 30px;
+}
+
+.dos_palabras {
+    width: 190px;
+    margin-left: -0.5%;
+    height: 30px;
+
 }
 
 
+.fecha_importante{
+    width: 55px;
+    margin-left: -2%;
+}
+
+.fecha {
+    width: 100px;
+    height: 30px;
+    
+}
+
+.fecha1 {
+    width: 100px;
+    height: 30px;
+    
+}
+
+
+.fechas2 {
+    margin-bottom: 2%;
+}
 
 .personas {
-    width: 132px;
+    width: 178px;
+    height: 30px;
 }
 
+
 button{
-    width: 80px;
+    width: 100px;
+    height: 30px;
     border-radius: 0% 0% 0% 0%;
 }
