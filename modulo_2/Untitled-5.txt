@@ -1,0 +1,40 @@
+let doh = "Doh";
+console.log(typeof doh.toUpperCase);
+
+console.log
+//metodos
+let secuencia = [1, 2, 3];
+secuencia.push(4);
+secuencia.push(5);
+console.log(secuencia);
+
+console.log(secuencia.pop());
+
+console.log(secuencia);
+
+//objetos
+let dia1 = {
+    hombreArdilla: true,
+    eventos: ["trabajo", "tocó árbol", "pizza", "correr"]
+    };
+
+    dia1.hombreArdilla = 4;
+    console.log(dia1.hombreArdilla);
+    // → false
+    console.log(dia1.lobo);
+    // → undefined
+    dia1.lobo = false;
+    console.log(dia1.lobo);
+    // → false
+
+    let unObjeto = {izquierda: 1, derecha: 2};
+console.log(unObjeto.izquierda);
+// → 1
+delete unObjeto.izquierda;
+console.log(unObjeto.izquierda);
+// → undefined
+console.log("izquierda" in unObjeto);
+// → false
+console.log("derecha" in unObjeto);
+
+    

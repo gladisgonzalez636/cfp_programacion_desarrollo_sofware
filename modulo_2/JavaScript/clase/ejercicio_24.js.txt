@@ -1,0 +1,8 @@
+let numero = 0;
+let numero3 = 2;
+while(numero3 != numero){
+    numero = Math.floor(Math.random()*(5-1)+1);
+    if(numero3==numero){
+        console.log('Correcto');
+    }
+}
