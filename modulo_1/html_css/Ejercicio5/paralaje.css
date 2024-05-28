@@ -1,0 +1,75 @@
+/*INICIO DEL PROGRAMA*/
+body{
+   padding: 0%;
+    margin: 0; 
+   background-image: url(caperucita.jpg);
+   background-size: cover;
+   background-attachment: fixed; 
+   background-position: relative;
+   background-repeat: repeat;
+}
+
+/*ESTILOS DE LOS TITULOS*/
+h1{
+    font-size: 5em;
+    position: relative;
+    margin: 0;
+}
+
+/*ESTILOS DE LAS IMAGENES Y PARRAFOS*/
+.caperucita{
+    margin-top: 100%;
+    
+}
+
+.parrafo{
+    height: 13rem;
+    background-color: rgb(223, 208, 236);
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+p{
+    
+    font-size: 25px;
+    margin: 0;
+}
+
+.bella{
+    background-image: url(bella.jpg);
+    background-color: brown;
+    height: 800px;
+    background-size: 50% 50%;
+    margin: 0;
+    background-size: cover;
+    background-attachment: fixed; 
+    /* margin: 0; */
+    
+}
+
+.cenicienta{
+    background-image: url(cenicienta.jpg);
+    background-color: blueviolet;
+    height: 800px;
+    background-size: 50%;
+    position: relative;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat:  url(bella.jpg);
+    margin: 0;
+    
+}
+
+.ultima p{
+    height: 13rem;
+    background-color: rgb(215, 190, 238);
+    margin-bottom: 100%;
+    
+}
+
+
+
