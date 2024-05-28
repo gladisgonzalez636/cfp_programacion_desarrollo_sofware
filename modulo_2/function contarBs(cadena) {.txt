@@ -1,0 +1,17 @@
+function contarBs(cadena) {
+    let contadorCaracter = 0;
+    for(i=0; i<cadena.length;i++){
+        if (cadena[i] ==='B'){
+            contadorCaracter++;
+        }
+    }
+    return contadorCaracter
+}
+
+console.log(contarBs('BBBsasasdasdBB'));
+
+function contarCaracter(cadena2,cadena3){
+    let cotador2 = 0
+    if (i = 0)
+}
+

@@ -1,0 +1,28 @@
+// function numero_minino(num1,num2,num3){
+//     if (num1<num2 && num1<num3){
+//         console.log(`EL menor es ${num1}`);
+//     }else if (num2<num1 && num2<num3){
+//         console.log(`EL menor es ${num2}`);
+//     }else if (num3<num1 && num3<num2){
+//         console.log(`EL menor es ${num3}`);
+//     }else{
+//         console.log('Todos son iguales');
+//     }
+//   }
+//   numero_minino(3,3,1);
+
+function isVen(a){
+    if (a == 0){
+        return true;
+    }else if (a == 1) {
+        return false;
+    }else if (isVen<0){
+        console.log('no negativos');
+    }
+    else{
+        return isVen(a-2)
+    }
+}
+
+console.log(isVen(3));
+
