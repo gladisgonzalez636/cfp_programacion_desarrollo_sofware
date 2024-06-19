@@ -12,10 +12,6 @@ CREATE TABLE productos(
   FOREIGN KEY (categoria_id) REFERENCES categorias(id)
 );
 
-DROP TABLE detalle_pedido;
-DROP TABLE pedidos;
-DROP TABLE clientes;
-
 CREATE TABLE clientes(
   id INTEGER PRIMARY KEY,
   nombre VARCHAR2(250)
@@ -66,3 +62,5 @@ INSERT INTO detalle_pedido VALUES(1,5,2);
 INSERT INTO detalle_pedido VALUES(1,6,2);
 SELECT * FROM detalle_pedido;
 
+SELECT productos.id, productos.nombre_producto, categorias.nombre FROM productos 
+JOIN categorias ON categoria_id = categorias.id ORDER BY categorias.id;
