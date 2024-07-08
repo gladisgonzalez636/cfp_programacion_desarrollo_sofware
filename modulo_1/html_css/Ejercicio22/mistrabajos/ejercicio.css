@@ -1,0 +1,62 @@
+body {
+    background-color: aqua;
+}
+
+.cabeza {
+    background-color: burlywood;
+}
+
+.seccion1 {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.a{
+    width: 50px;
+    height: 50px;
+}
+
+.seccion2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.cuerpo {
+    background-color: cadetblue;
+    width: 100px;
+    height: 100px;
+}
+
+.izquierda {
+    background-color: yellowgreen;
+    width: 400px;
+    height: 400px;
+}
+
+.derecha{
+    background-color: rgb(50, 140, 205);
+    width: 300px;
+    height: 300px;
+}
+
+.pie {
+    background-color: chocolate;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: end;
+}
+
+.uno{
+    background-color: rgb(187, 187, 233);
+    width: 100px;
+    height: 100px;
+}
+
+.dos{
+    background-color: beige;
+    width: 100px;
+    height: 100px;
+}
