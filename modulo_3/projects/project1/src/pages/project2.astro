@@ -1,0 +1,34 @@
+---
+import Layout from "../../../proyecto2/src/layouts/Layout.astro";
+import Project from "../components/Project2.astro";
+---
+
+<Layout title="Welcome to Astro.">
+   <div class="flex h-screen w-full p-6 gap-6">
+      <Project
+         title="1",
+         />,
+        
+
+</Layout>
+
+<!-- <script>
+   const carta = document.getElementsByClassName("carta");
+   Array.from(carta)[0].classList.toggle("!w-2/3");
+   Array.from(carta)[0].children[0].classList.toggle("!block");
+
+   Array.from(carta).forEach((element) => {
+      element.addEventListener("click", () => {
+         removeActiveClasses();
+         element.classList.toggle("!w-2/3");
+         element.children[0].classList.toggle("!block");
+      });
+   });
+
+   function removeActiveClasses() {
+      Array.from(carta).forEach((element) => {
+         element.classList.remove("!w-2/3");
+         element.children[0].classList.remove("!block");
+      });
+   }
+</script> -->

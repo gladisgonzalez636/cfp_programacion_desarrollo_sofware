@@ -1,0 +1,24 @@
+{
+  "name": "ejercicio1npm",
+  "version": "1.0.0",
+  "description": "Aprendiendo npm",
+  "main": "index.js",
+  "scripts": {
+    "start":"node index.js",
+    "dev":"nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gladisgonzalez636"
+  },
+  "author": "Gladis Gonzalez",
+  "license": "ISC",
+  "devDependencies": {
+    "colors": "^1.4.0",
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
