@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="demo">
+        <h2>Let AJAX change this text</h2>
+        <button type="button" onclick="loadDoc()">Change Content</button>
+        <br>
+    </div>
+
+    <div id="demo2">
+        <!-- <h2>Demo</h2>
+        <button type="button" onclick="loadDoc2()">Change Content</button>
+        <img src="
+        https://pokeapi.co/api/v2/pokemon-species/132/" alt=""> -->
+    </div>
+    <div class="w-28 h-24 " id="demo3">
+        <!-- <h2>Demo</h2>
+        <button type="button" onclick="loadDoc2()">Change Content</button>
+        <img src="
+        https://pokeapi.co/api/v2/pokemon-species/132/" alt=""> -->
+    </div>
+    <div id="4">
+
+    </div>
+
+<script>
+    function loadDoc() {
+      const xhttp = new XMLHttpRequest();
+      xhttp.onload = function() {
+        const data = JSON.parse(this.responseText);
+        document.getElementById("demo").innerHTML = data.name;
+        document.getElementById("demo2").innerHTML = data.id;
+      
+     
+        document.getElementById("demo3").style.backgroundImage= `url(${data.sprites.front_default})`;
+    
+        
+      }
+
+      xhttp.open("GET", "https://pokeapi.co/api/v2/pokemon/ditto", true);
+      xhttp.send();
+    }
+
+    function loadDoc2() {
+      const xhttp2 = new XMLHttpRequest();
+      xhttp2.onload2 = function() {
+        const data = JSON.parse(this.responseText);
+        // document.getElementById("demo").innerHTML = data.name;
+        // document.getElementById("demo2").innerHTML = data.id;
+      
+     
+        // document.getElementById("demo3").style.backgroundImage= `url(${data.sprites.front_default})`;
+        document.getElementById("demo4").innerHTML = data.results;
+        
+      }
+
+      xhttp.open("GET", "https://pokeapi.co/api/v2/pokemon?limit=100000&offset=1", true);
+      xhttp.send();
+    }
+
+    const results = "https:pokeapi.co/api/v2/pokemon?limit=100000&offset=1302"
+ 
+    for (var i = 0; i < 1302; i++) {
+        const url = data.results[i].url
+        console.log(url);
+    }
+</script>
+
+</body>
+</html>

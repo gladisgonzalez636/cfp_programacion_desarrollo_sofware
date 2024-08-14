@@ -1,0 +1,33 @@
+---
+interface Props {
+	title: string;
+   
+}
+
+const { title} = Astro.props;
+---
+
+<div class="flex w-full justify-center items-center">
+    <div class="bg-white h-12 w-fit flex p-2">
+        <!-- add autofocus -->
+        <input class="w-0 focus:outline-none" type="text" id="input-search" placeholder="Search..."/> 
+        <img class="h-8 cursor-pointer" src="https://th.bing.com/th/id/OIP.QNAx0aIErXUYCygJ9RjohgHaHa?rs=1&pid=ImgDetMain" alt="Search Icon" id="icon-search"/>
+    </div>
+</div>
+
+<style>
+    #input-search {
+        transition: width 0.5s;
+    }
+</style>
+
+<script>
+    const input = document.getElementById("input-search");
+    const icon = document.getElementById("icon-search");
+
+    icon?.addEventListener("click", () => {
+        input?.classList.toggle("w-40");
+		input?.focus()
+    });
+
+</script>
