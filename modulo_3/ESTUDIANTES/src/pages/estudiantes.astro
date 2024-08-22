@@ -1,0 +1,51 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Card from "../components/Estudiantes.astro";
+import jsonEstudiantes from "../../estudiantes.json";
+
+export interface Estudiante {
+  id: string;
+  nombre: string;
+  apellido: string;
+  edad: string;
+  encargado: string;
+}
+
+// console.log(jsonEstudiantes);
+const estudiante = jsonEstudiantes as Estudiante;
+const estudiantes: Estudiante[] = [
+  estudiante,
+  estudiante,
+  estudiante,
+  estudiante,
+  estudiante,
+];
+// const identificador = estudiante.id;
+// console.log(estudiantes.length);
+// console.log(estudiantes);
+
+
+const { path } = Astro.params;
+---
+
+<Layout title="Welcome to Astro.">
+  <table class="text-white">
+    <tr>Estudiantes</tr>
+    {
+      estudiantes.map((element) => 
+        (
+        <tr>
+          <td>{element.id}</td>
+          <td>{element.nombre}</td>
+        </tr>
+        )
+      )
+    }
+  </table>
+</Layout>
+
+<script>
+  const urlSearchParams = new URLSearchParams(window.location.search);
+  const params = Object.fromEntries(urlSearchParams.entries());
+  console.log('params', params);
+</script>
