@@ -1,0 +1,14 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Deshboard.astro';
+
+const {body } = Astro.props;
+---
+
+<Layout body=''>
+	<Card>
+		<h2 slot="llamar">Hola</h2>
+		<p slot="llamados">Primer parrafo de esta pagina</p>
+	</Card>
+</Layout>
+

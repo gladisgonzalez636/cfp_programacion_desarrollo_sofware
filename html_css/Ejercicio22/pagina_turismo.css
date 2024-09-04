@@ -1,0 +1,107 @@
+.padre {
+    background-color: blueviolet;
+}
+
+.consulta_x{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.consulta a {
+    color: black;
+}
+
+.x a {
+    text-decoration: none;
+    color: gray;
+}
+
+.navegacion {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.despegar { 
+    width: 100px;
+}
+
+.despegar img {
+    height: 55px;
+    width: 150px;
+}
+
+.barra {
+    width: 350px;
+    margin-right: 2%;
+    height: 47px;
+    border-radius: 0% 0% 0% 20%;
+    background-color: aliceblue;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+.madre {
+    align-items: end;
+    display: flex;
+
+}
+.barra2 {
+    background-color: white;
+    height: 70px;
+    display: flex;
+    align-items: end;
+}
+
+.barra2 ul {
+    background-color: white;
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.barra2 a {
+    color: gray;
+}
+
+input {
+    height: 15px;
+    width: 20px;
+}
+.vuelos_reserva {
+    background-color: antiquewhite;
+    width: 1000px;
+    margin-left: 11.5%;
+}
+
+.span {
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    margin: 0% ;
+}
+
+
+
+.personas {
+    width: 132px;
+}
+
+button{
+    width: 80px;
+    border-radius: 0% 0% 0% 0%;
+}

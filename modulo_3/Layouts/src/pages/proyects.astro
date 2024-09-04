@@ -1,0 +1,15 @@
+---
+import Layout from "../layouts/Layout.astro";
+import ProyectsL from "../components/Proyects.astro";
+
+const {body } = Astro.props;
+---
+
+<Layout body="">
+    <ProyectsL>
+        <p slot="mensaje">Tercer mensaje</p>
+        <div slot="parrafo">
+            <p>Este es un parrafo dentro de div</p>
+        </div>
+    </ProyectsL>
+</Layout>

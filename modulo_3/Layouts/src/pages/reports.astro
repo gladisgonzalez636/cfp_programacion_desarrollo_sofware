@@ -1,0 +1,20 @@
+---
+import ReComponent from "../components/Reports.astro"
+import Layout from "../layouts/Layout.astro"
+
+
+const {body } = Astro.props;
+---
+
+<Layout body=''>
+    <ReComponent >
+        <div slot="div">
+            <h1>{body}</h1>
+               
+            <p>hola este es un mensaje</p>
+           
+        </div>
+        <p slot="saludo">hola</p>
+        <p slot="ultima">ultimo componente</p>
+    </ReComponent>
+</Layout>

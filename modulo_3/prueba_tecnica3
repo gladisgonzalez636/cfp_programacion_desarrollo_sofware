@@ -1,0 +1,29 @@
+let num = 4;
+anterior = 0;
+actual = 1;
+
+anterior = anterior+actual;
+actual = anterior*2
+console.log(actual); 
+
+for(i=1;i<=10;i++){
+    console.log(i);
+}
+console.log(Number.isInteger(i));
+
+if(num%2==0 && i==true){
+    console.log(num/2);
+}
+
+
+// let anterior = 0;
+// let actual = 1;
+
+// anterior = anterior+actual;
+// actual = anterior*2;
+
+// let num = 7;
+
+// for(i=1*2;
+    
+// )

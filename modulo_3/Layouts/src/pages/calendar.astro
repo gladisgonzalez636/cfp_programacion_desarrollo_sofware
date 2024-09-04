@@ -1,0 +1,20 @@
+---
+import CalendarComponent from "../components/Calendar.astro"
+import Layout from "../layouts/Layout.astro"
+
+
+const {body } = Astro.props;
+---
+
+<Layout body=''>
+    <CalendarComponent >
+        <div>
+            <h1>{body}</h1>
+               
+            <p>hola este es un mensaje</p>
+           
+        </div>
+        <p slot="cuartallamada">hola</p>
+        <p slot="llamada">Cuarto componente</p>
+    </CalendarComponent>
+</Layout>
