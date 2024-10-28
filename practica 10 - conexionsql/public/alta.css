@@ -1,0 +1,27 @@
+body{
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-mariposa-colorida-acuarela_23-2150127744.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 100vh; 
+}
+
+.container{
+    margin-top: 15%;
+    height: 100px;
+    width: 350px;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.botonUno{
+    height: 30px;
+    width: 500px;
+}
+
+.botonDos{
+    height: 30px;
+    font-size: 20px;
+    font-style: italic;
+}
